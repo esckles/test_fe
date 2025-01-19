@@ -18,17 +18,14 @@ export const router = createBrowserRouter([
         element: <Register />,
       },
       {
-        // index: true,
         path: "/login",
         element: <Login />,
       },
       {
-        // index: true,
         path: "/otp/:id",
         element: <Otp />,
       },
       {
-        // index: true,
         path: "/notification",
         element: <Notification />,
       },
