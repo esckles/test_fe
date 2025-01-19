@@ -3,7 +3,8 @@ import axios from "axios";
 // import { data } from "react-router-dom";
 
 // const URL: string = "https://testbe-nv4b.onrender.com";
-const URL: string = "http://localhost:7000";
+// const URL: string = "http://localhost:7000";
+const URL: string = "https://test-backend-9de4.onrender.com";
 
 export const createAccount = async (data: any) => {
   try {
