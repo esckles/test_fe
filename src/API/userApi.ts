@@ -44,3 +44,13 @@ export const readOneUser = async (data: any) => {
     return error;
   }
 };
+
+export const spinUp = async () => {
+  try {
+    return await axios.get(`${URL}`).then((res: any) => {
+      return res.data;
+    });
+  } catch (error: any) {
+    throw new Error(error?.response?.data?.message);
+  }
+};
