@@ -142,7 +142,7 @@ const Register = () => {
 
     createAccount({ name, email, password }).then((res) => {
       if (res.status === 201) {
-        navigate("/auth/notification");
+        navigate("/notification");
       } else {
         return toast.error("error creating user");
       }

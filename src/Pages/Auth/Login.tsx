@@ -31,7 +31,7 @@ const Login = () => {
           setUser(getID?.id);
           localStorage.setItem("auth", JSON.stringify(getID?.id));
           toast.success(res.message);
-          navigate("/");
+          navigate("/home");
         } else {
           console.log(res);
 

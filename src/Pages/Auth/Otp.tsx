@@ -23,7 +23,7 @@ const Otp = () => {
 
     verifyUser(id, otp).then((res) => {
       if (res.status === 201) {
-        navigate("/auth/login");
+        navigate("/login");
       } else {
         return toast.error("Error verifying user");
       }

@@ -10,7 +10,7 @@ import Notification from "../Pages/Auth/Notification";
 
 export const router = createBrowserRouter([
   {
-    path: "/auth",
+    path: "/",
     element: <AuthLayout />,
     children: [
       {
@@ -35,7 +35,7 @@ export const router = createBrowserRouter([
     ],
   },
   {
-    path: "/",
+    path: "/home",
     element: <Layout />,
     children: [
       {
